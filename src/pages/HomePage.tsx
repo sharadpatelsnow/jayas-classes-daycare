@@ -53,7 +53,7 @@ function HeroSection() {
             <span className="text-gradient">Comprehensive Care</span>
           </h1>
           <p className="font-body text-lg text-gray-600 mb-8 leading-relaxed max-w-xl">
-            Building strong foundations for learning, confidence and growth — at Kharadi's most trusted Day Care and Classes Centre, near D'Mart Ready.
+            Building strong foundations for learning, confidence and growth — at Kharadi's most trusted Day Care and Classes Centre, near Toy Mall.
           </p>
           <div className="flex flex-wrap gap-3 mb-8">
             <Button href="/admissions" variant="primary" size="xl"
@@ -129,7 +129,7 @@ function FeaturesSection() {
     { icon: '🎯', title: 'Child-Centric', desc: 'Activities tailored to each child\'s pace, strengths, and learning style.' },
     { icon: '⏰', title: 'Flexible Timings', desc: 'Morning, afternoon & evening batches. Full-day daycare available.' },
     { icon: '🌱', title: 'Holistic Growth', desc: 'Fine motor, gross motor, emotional and social development every day.' },
-    { icon: '📍', title: 'Near D\'Mart Ready', desc: 'Second Floor, Tulaja Bhawani Nagar — easy to find, convenient to reach.' },
+    { icon: '📍', title: 'Easy to Find', desc: 'Saffron Glory, Second Floor above Swasthya Clinic, Near Toy Mall — convenient to reach.' },
   ]
   return (
     <Section background="light">
@@ -162,9 +162,9 @@ function ServicesSection() {
             points: ['Safe & supervised environment', 'Daily routine building', 'Fine & gross motor skills', 'Emotional development', 'Flexible timings for working parents'],
           },
           {
-            icon: '📖', title: 'Academic Classes (Gr. 1–8)', color: '#1E3A8A', to: '/academics',
-            desc: 'Expert coaching aligned to CBSE, ICSE & State Board. Building foundations in Class 1–4 and mastery in Class 5–8.',
-            points: ['Class 1–4: Foundation & Confidence', 'Class 5–8: Core & Detailed Studies', 'CBSE / ICSE / State Board', 'Homework support', 'Regular practice & revision'],
+            icon: '📖', title: 'Academic Classes (Gr. 1–10)', color: '#1E3A8A', to: '/academics',
+            desc: 'Expert coaching aligned to CBSE, ICSE & State Board. Foundations in Class 1–4, mastery in Class 5–8, and board excellence in Class 9–10.',
+            points: ['Class 1–4: Foundation & Confidence', 'Class 5–8: Core & Detailed Studies', 'Class 9–10: Maths & Science Focus', 'CBSE / ICSE / State Board', 'Personalized mentoring', 'Regular practice & revision'],
           },
         ].map(s => (
           <motion.div key={s.title} variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}
@@ -265,7 +265,7 @@ function MapSection() {
     <Section background="light">
       <div className="max-w-4xl mx-auto text-center">
         <SectionHeader eyebrow="Find Us" title="Located in the Heart of Kharadi"
-          subtitle="Second Floor, Tulaja Bhawani Nagar, Near D'Mart Ready, Kharadi, Pune — easy to find, convenient to reach" />
+          subtitle="Saffron Glory, Second Floor, Above Swasthya Clinic, Near Toy Mall, Kharadi, Pune — easy to find, convenient to reach" />
         <div className="rounded-2xl overflow-hidden shadow-card mb-6">
           <iframe
             src={BUSINESS.mapsEmbed}

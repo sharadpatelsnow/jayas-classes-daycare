@@ -102,7 +102,7 @@ export default function BlogPostPage() {
               Looking for quality education and daycare in Kharadi?
             </h2>
             <p className="font-body opacity-90 mb-6 text-sm">
-              Jaya's Classes and Day Care Center — Near D'Mart Ready, Kharadi, Pune. Admissions Open!
+              Jaya's Classes and Day Care Center — Near Toy Mall, Kharadi, Pune. Admissions Open!
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <Button href="/admissions" variant="accent">Enquire Now →</Button>

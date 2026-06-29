@@ -7,8 +7,8 @@ import { BUSINESS, WHATSAPP_MESSAGES } from '@/data/constants'
 import { trackCallLead, trackWhatsAppLead, trackDirectionLead } from '@/utils/analytics'
 
 const seo = buildSEO({
-  title: "Best Day Care Center in Kharadi Pune | Near D'Mart Ready | Jaya's",
-  description: "Safe, hygienic, professional day care center in Kharadi, Pune. Near D'Mart Ready. Full-day & half-day options for children aged 1–10. Flexible timings for working parents. Admissions Open!",
+  title: "Best Day Care Center in Kharadi Pune | Near Toy Mall | Jaya's",
+  description: "Safe, hygienic, professional day care center in Kharadi, Pune. Near Toy Mall. Full-day & half-day options for children aged 1–10. Flexible timings for working parents. Admissions Open!",
   canonical: '/day-care-center-kharadi',
   keywords: "day care center kharadi, daycare near dmart ready, child care kharadi pune, best creche kharadi",
 })
@@ -40,7 +40,7 @@ export default function DaycareKharadiPage() {
         <div className="container-main max-w-4xl mx-auto text-center">
           <motion.div variants={fadeUp} initial="hidden" animate="show" transition={{ duration: 0.6 }}>
             <div className="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full text-sm font-semibold font-body mb-6">
-              📍 Near D'Mart Ready, Kharadi, Pune
+              📍 Near Toy Mall, Kharadi, Pune
             </div>
             <h1 className="font-heading text-4xl lg:text-5xl font-extrabold leading-tight mb-4">
               Best Day Care Center in Kharadi
@@ -49,7 +49,7 @@ export default function DaycareKharadiPage() {
               Safe · Hygienic · Nurturing · Structured
             </p>
             <p className="font-body opacity-80 mb-10 max-w-2xl mx-auto leading-relaxed">
-              Jaya's Day Care Center on Tulaja Bhawani Nagar, near D'Mart Ready Kharadi — the trusted choice for Kharadi's working families since 2022.
+              Jaya's Day Care Center at Saffron Glory, near Toy Mall Kharadi — the trusted choice for Kharadi's working families since 2022.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <Button href="/admissions" variant="accent" size="xl">Book a Spot →</Button>
@@ -114,7 +114,7 @@ export default function DaycareKharadiPage() {
         {/* Location */}
         <div className="bg-white rounded-2xl shadow-card p-8 text-center mb-8">
           <h2 className="font-heading text-xl font-bold text-primary-900 mb-3">📍 Find Us in Kharadi</h2>
-          <p className="font-body text-gray-600 mb-4">Second Floor, Tulaja Bhawani Nagar, Near D'Mart Ready, Kharadi, Pune 411014</p>
+          <p className="font-body text-gray-600 mb-4">Saffron Glory, Second Floor, Above Swasthya Clinic, Near Toy Mall, Kharadi, Pune 411014</p>
           <div className="flex flex-wrap justify-center gap-3">
             <Button href={BUSINESS.mapsUrl} target="_blank" rel="noopener noreferrer"
               variant="primary" onClick={trackDirectionLead}>

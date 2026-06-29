@@ -8,7 +8,7 @@ import { trackCallLead, trackWhatsAppLead } from '@/utils/analytics'
 
 const seo = buildSEO({
   title: "CBSE Tuition in Kharadi Pune | Class 1–8 | Expert Coaching | Jaya's Classes",
-  description: "Expert CBSE tuition and coaching in Kharadi, Pune for Class 1–8. Experienced teachers, small batches, personalised attention, chapter-wise practice. Near D'Mart Ready. Admissions Open!",
+  description: "Expert CBSE tuition and coaching in Kharadi, Pune for Class 1–8. Experienced teachers, small batches, personalised attention, chapter-wise practice. Near Toy Mall. Admissions Open!",
   canonical: '/cbse-tuition-kharadi',
   keywords: 'CBSE tuition kharadi, CBSE coaching kharadi pune, CBSE classes kharadi near me, best CBSE tutor kharadi',
 })

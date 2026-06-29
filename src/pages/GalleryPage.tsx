@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { useState } from 'react'
 import SEO from '@/components/ui/SEO'
 import Button from '@/components/ui/Button'
 import { PAGE_SEO } from '@/utils/seo'
@@ -30,7 +31,16 @@ const galleryItems = Object.entries(galleryFiles)
   })
   .sort((a, b) => a.caption.localeCompare(b.caption))
 
+interface GalleryItem {
+  src: string
+  alt: string
+  caption: string
+  type: 'image' | 'video'
+}
+
 export default function GalleryPage() {
+  const [selectedItem, setSelectedItem] = useState<GalleryItem | null>(null)
+  
   return (
     <>
       <SEO {...PAGE_SEO.gallery} />
@@ -48,7 +58,8 @@ export default function GalleryPage() {
             {galleryItems.length > 0 ? (
               galleryItems.map((item, index) => (
                 <motion.div key={item.src} variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} transition={{ delay: index * 0.05 }}
-                  className="group overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-soft hover:shadow-card transition-shadow">
+                  className="group overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-soft hover:shadow-card transition-shadow cursor-pointer"
+                  onClick={() => setSelectedItem(item)}>
                   {item.type === 'image' ? (
                     <img src={item.src} alt={item.alt} className="h-72 w-full object-cover transition-transform duration-500 group-hover:scale-105" />
                   ) : (
@@ -79,6 +90,53 @@ export default function GalleryPage() {
 
         </div>
       </section>
+
+      {/* Image/Video Overlay Modal */}
+      {selectedItem && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 animate-in fade-in duration-300" onClick={() => setSelectedItem(null)}>
+          <motion.div
+            className="relative w-full max-w-5xl max-h-[90vh] bg-black rounded-2xl overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.95 }}
+            transition={{ duration: 0.3 }}>
+            
+            {/* Close Button */}
+            <button
+              onClick={() => setSelectedItem(null)}
+              className="absolute top-4 right-4 z-10 p-2 rounded-full bg-white/20 hover:bg-white/40 transition-colors text-white"
+              aria-label="Close modal">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+
+            {/* Content */}
+            <div className="flex flex-col items-center justify-center max-h-[90vh] overflow-auto bg-black">
+              {selectedItem.type === 'image' ? (
+                <img
+                  src={selectedItem.src}
+                  alt={selectedItem.alt}
+                  className="w-full h-auto max-h-[85vh] object-contain"
+                />
+              ) : (
+                <video
+                  src={selectedItem.src}
+                  controls
+                  autoPlay
+                  className="w-full h-auto max-h-[85vh] object-contain"
+                />
+              )}
+              
+              {/* Caption */}
+              <div className="w-full px-6 py-4 bg-black/40 backdrop-blur-sm border-t border-white/10">
+                <h3 className="text-lg font-semibold text-white">{selectedItem.caption}</h3>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      )}
     </>
   )
 }

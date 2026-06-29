@@ -4,7 +4,7 @@ Production website for **Jaya's Classes and Day Care Center**, Kharadi, Pune.
 
 **Live URL:** https://jayasclasses.in  
 **Contact:** +91 7869008525 | patel.jaya0@gmail.com  
-**Address:** 2nd Floor, Tulaja Bhawani Nagar, Near D'Mart Ready, Kharadi, Pune 411014
+**Address:** Saffron Glory, Second Floor, Above Swasthya Clinic, Near Toy Mall, Kharadi, Pune 411014
 
 ---
 

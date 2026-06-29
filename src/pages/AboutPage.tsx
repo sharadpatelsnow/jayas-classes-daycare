@@ -65,11 +65,15 @@ export function AcademicsPage() {
       title: 'Class 5–8: Advanced Batch', subtitle: 'Core & Detailed Studies + Exam Prep', color: '#1E3A8A',
       points: ['Deep-dive subject coaching', 'Mastery through systematic practice', 'Chapter-wise tests & revision', 'CBSE / ICSE / State Board focused', 'Exam strategy & paper solving', 'Academic doubt-clearing sessions', 'Parent progress updates'],
     },
+    {
+      title: 'Class 9–10: Premium Batch', subtitle: 'Board Exam Excellence & Advanced Maths/Science', color: '#F59E0B',
+      points: ['Special focus on Maths and Science', 'Board exam preparation strategy', 'Advanced problem-solving techniques', 'Regular board-pattern tests', 'Competitive exam foundation', 'Concept mastery in core subjects', 'Personalized mentoring for high achievers'],
+    },
   ]
   return (
     <>
       <SEO {...PAGE_SEO.academics} />
-      <PageHero title="Academic Classes" subtitle="Expert tuition for Classes 1–8 | CBSE · ICSE · Maharashtra State Board" gradient="bg-dark-gradient" />
+      <PageHero title="Academic Classes" subtitle="Expert tuition for Classes 1–10 | CBSE · ICSE · Maharashtra State Board" gradient="bg-dark-gradient" />
       <Section background="light">
         <SectionHeader title="Coaching for Every Board & Every Grade" eyebrow="Academics" />
         <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -100,7 +104,7 @@ export function AcademicsPage() {
         <div className="bg-primary-50 rounded-2xl p-8 mb-8">
           <h3 className="font-heading text-xl font-bold text-primary-900 mb-6 text-center">Subjects Covered</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
-            {['English', 'Mathematics', 'Science', 'Social Studies', 'Hindi', 'Marathi', 'EVS', 'Computer Basics', 'General Knowledge', 'Drawing & Art'].map(s => (
+            {['English', 'Mathematics', 'Science', 'Physics', 'Chemistry', 'Biology', 'Social Studies', 'Hindi', 'Marathi', 'EVS', 'Computer Basics', 'General Knowledge', 'Drawing & Art'].map(s => (
               <div key={s} className="bg-white rounded-xl px-4 py-3 text-center text-sm font-medium text-primary-900 shadow-sm font-body">{s}</div>
             ))}
           </div>

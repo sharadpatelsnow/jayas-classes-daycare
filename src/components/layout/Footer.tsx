@@ -73,7 +73,7 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-gray-400 font-body">
               <li className="flex gap-3">
                 <span className="text-secondary-400 flex-shrink-0">📍</span>
-                <span>Second Floor, Tulaja Bhawani Nagar,<br />Near D'Mart Ready, Kharadi, Pune</span>
+                <span>Saffron Glory, Second Floor,<br />Above Swasthya Clinic, Near Toy Mall, Kharadi, Pune</span>
               </li>
               <li>
                 <a href={`tel:${BUSINESS.phone}`} onClick={() => trackCallLead('footer')}

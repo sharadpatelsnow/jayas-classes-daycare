@@ -28,7 +28,7 @@ Qualified caregivers make the biggest difference in your child's daycare experie
 
 **Location Matters: Kharadi's Best Daycare Zones**
 
-Kharadi is a large area spanning from the EON IT Park corridor to the D'Mart Ready area near Wagholi. Parents working in the IT belt often prefer daycare centers close to their offices or on their commute route. Centers near D'Mart Ready, Tulaja Bhawani Nagar are particularly accessible for families in the eastern Kharadi area.
+Kharadi is a large area with many residential and commercial zones. Parents working in the IT belt often prefer daycare centers close to their offices or on their commute route. Centers in accessible locations are particularly valued for families throughout Kharadi.
 
 **Daily Activities and Curriculum**
 
@@ -64,7 +64,7 @@ Before committing to any daycare in Kharadi, ask these essential questions:
 - What meals/snacks are provided?
 - What is the hygiene and sanitisation protocol?
 
-At Jaya's Classes and Day Care Center, located near D'Mart Ready in Kharadi, we welcome all these questions. Our commitment is to provide a safe, nurturing, and stimulating environment where your child thrives. Contact us at +91 7869008525 to schedule a visit.`
+At Jaya's Classes and Day Care Center, located near Toy Mall in Kharadi, we welcome all these questions. Our commitment is to provide a safe, nurturing, and stimulating environment where your child thrives. Contact us at +91 7869008525 to schedule a visit.`
   },
   {
     slug: 'how-daycare-improves-child-development',
@@ -138,7 +138,7 @@ The preschool years coincide with the language explosion — the period when chi
 
 At Jaya's Classes and Day Care Center, our play school and nursery program is designed by experienced early childhood educators. We combine structured learning with joyful play to ensure every child develops the foundations they need for success in formal schooling and beyond.
 
-Located conveniently near D'Mart Ready in Kharadi, we serve families from across eastern Pune including Wagholi, Viman Nagar, and the EON IT Park corridor. Contact us at +91 7869008525 to learn more.`
+Located conveniently near Toy Mall in Kharadi, we serve families from across eastern Pune including Wagholi, Viman Nagar, and the EON IT Park corridor. Contact us at +91 7869008525 to learn more.`
   },
   {
     slug: 'how-to-choose-a-daycare-center',
@@ -175,7 +175,7 @@ What happens in a medical emergency? Is there a first aid kit? Are staff trained
 Does the daycare offer timings that work for your schedule? Can you adjust days or hours? What is the policy on holidays and sick days?
 
 **9. Location and Convenience**
-A daycare on your commute route or near your home reduces daily stress significantly. In Kharadi, proximity to EON IT Park, D'Mart Ready, or main roads makes drop-off and pick-up more manageable.
+A daycare on your commute route or near your home reduces daily stress significantly. In Kharadi, proximity to Toy Mall, or main roads makes drop-off and pick-up more manageable.
 
 **10. Atmosphere and Feel**
 Trust your instincts. When you visit, does it feel warm and welcoming? Are children happy? Do caregivers seem engaged and affectionate? The intangible feeling of a place matters.
@@ -224,7 +224,7 @@ As children enter Class 5, subjects become more complex and board exams become a
 
 **Jaya's Classes: Kharadi's Trusted Tuition Center**
 
-At Jaya's Classes in Kharadi, we offer personalised tuition for Class 1-8 across CBSE, ICSE, and State Board. Our small batch sizes ensure every child gets the attention they deserve. Located near D'Mart Ready, Kharadi — call us at +91 7869008525 or WhatsApp to discuss your child's needs.`
+At Jaya's Classes in Kharadi, we offer personalised tuition for Class 1-10 across CBSE, ICSE, and State Board. Our small batch sizes ensure every child gets the attention they deserve. Located near Toy Mall, Kharadi — call us at +91 7869008525 or WhatsApp to discuss your child's needs.`
   },
   {
     slug: 'cbse-study-tips-primary-students',
@@ -822,7 +822,7 @@ For school-age children, a center that provides both after-school care and acade
 - Strong reputation in the local community
 
 **The Jaya's Solution for Kharadi Working Families**
-Jaya's Classes and Day Care Center on the Second Floor, Tulaja Bhawani Nagar, near D'Mart Ready in Kharadi, was specifically designed to serve working families. Our flexible timings, strong communication with parents, and combination of quality care and academic support make us the practical choice for Kharadi's working parent community. Call +91 7869008525 to discuss your family's specific needs.`
+Jaya's Classes and Day Care Center at Saffron Glory, near Toy Mall in Kharadi, was specifically designed to serve working families. Our flexible timings, strong communication with parents, and combination of quality care and academic support make us the practical choice for Kharadi's working parent community. Call +91 7869008525 to discuss your family's specific needs.`
   },
   {
     slug: 'child-safety-daycare-what-to-check',
@@ -1129,7 +1129,7 @@ Parents choosing a school in Kharadi should consider: board and curriculum, comm
 **Tuition and Coaching Centers**
 As a dense residential area with educated, professionally ambitious families, Kharadi has seen a proliferation of tuition centers. Quality varies enormously. When evaluating tuition options, look for: experienced and qualified teachers, small batch sizes, board-specific expertise, clear communication with parents, and demonstrated results.
 
-Jaya's Classes and Day Care Center near D'Mart Ready Kharadi is a trusted choice for Classes 1-8 across CBSE, ICSE, and State Board, with a particular strength in foundation building for younger students.
+Jaya's Classes and Day Care Center near Toy Mall Kharadi is a trusted choice for Classes 1-8 across CBSE, ICSE, and State Board, with a particular strength in foundation building for younger students.
 
 **Libraries and Reading Resources**
 The Pune Municipal Corporation (PMC) operates public libraries, and several private libraries and book rental services operate in the Kharadi area. The British Library operates in central Pune. For English language books, platforms like StoryWeaver (Pratham Books) offer excellent free digital reading resources for Indian children.

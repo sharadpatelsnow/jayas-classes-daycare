@@ -7,10 +7,10 @@ import { BUSINESS, WHATSAPP_MESSAGES } from '@/data/constants'
 import { trackCallLead, trackWhatsAppLead } from '@/utils/analytics'
 
 const seo = buildSEO({
-  title: "Best Tuition Classes in Kharadi Pune | Class 1–8 | CBSE ICSE State Board | Jaya's",
-  description: "Top-rated tuition and coaching classes in Kharadi, Pune for Class 1–8. CBSE, ICSE, Maharashtra State Board. Small batches, expert teachers, personalised attention. Near D'Mart Ready.",
+  title: "Best Tuition Classes in Kharadi Pune | Class 1–10 | Highly Recommended | Jaya's",
+  description: "Best rated tuition and coaching center in Kharadi, Pune for Class 1–10. Highly recommended tutors. Professional coaching. CBSE, ICSE, State Board. Special focus on Maths & Science for Class 9-10. Small batches, personalised attention. Top rated kids tuition near Toy Mall.",
   canonical: '/tuition-classes-kharadi',
-  keywords: 'tuition classes kharadi, coaching center kharadi pune, class 1-8 tuition kharadi, best tuition near kharadi',
+  keywords: 'best tuition center kharadi, highly recommended tutors, top rated kids tuition classes, professional coaching center kharadi, class 9-10 maths science coaching, personalized mentoring for kids',
 })
 
 const fadeUp = { hidden: { opacity: 0, y: 24 }, show: { opacity: 1, y: 0 } }
@@ -53,6 +53,20 @@ export default function TuitionClassesPage() {
         'Parent progress reports',
       ],
     },
+    {
+      title: 'Premium Batch', classes: 'Class 9 – 10', icon: '⭐',
+      color: '#F59E0B', colorBg: '#FFFBEB',
+      subtitle: 'Board Excellence & Maths/Science Mastery',
+      points: [
+        'Special focus on Maths and Science',
+        'Board exam pattern preparation',
+        'Advanced problem-solving techniques',
+        'Competitive exam foundation building',
+        'Regular board-style tests',
+        'Concept clarity in complex topics',
+        'Personalized mentoring for excellence',
+      ],
+    },
   ]
 
   return (
@@ -67,13 +81,13 @@ export default function TuitionClassesPage() {
               🎒 Admissions Open — Limited Seats
             </div>
             <h1 className="font-heading text-4xl lg:text-5xl font-extrabold leading-tight mb-4">
-              Best Tuition Classes in Kharadi, Pune
+              Best Tuition Classes in Kharadi, Pune | Class 1–10
             </h1>
             <p className="font-body text-lg opacity-90 mb-4 leading-relaxed">
-              Expert coaching for Class 1–8 across CBSE, ICSE, and Maharashtra State Board. Small batches, personalised attention, real results.
+              Highly recommended, professional coaching center for Class 1–10 across CBSE, ICSE, and Maharashtra State Board. Concept-based learning with personalized mentoring. Class 9-10 with special focus on Maths and Science.
             </p>
             <p className="font-body text-secondary-300 font-semibold mb-8">
-              📍 Near D'Mart Ready, Kharadi | ⏰ Morning · Afternoon · Evening Batches
+              📍 Near Toy Mall, Kharadi | ⏰ Morning · Afternoon · Evening Batches
             </p>
             <div className="flex flex-wrap gap-3">
               <Button href="/admissions" variant="accent" size="xl">Enrol Now →</Button>
@@ -97,7 +111,7 @@ export default function TuitionClassesPage() {
               <div className="grid grid-cols-2 gap-3">
                 {[
                   { value: '200+', label: 'Students Coached' },
-                  { value: 'Class 1–8', label: 'All Classes' },
+                  { value: 'Class 1–10', label: 'All Classes' },
                   { value: '3 Boards', label: 'CBSE · ICSE · State' },
                   { value: '8–12', label: 'Students/Batch' },
                   { value: '3+', label: 'Years in Kharadi' },
@@ -116,8 +130,8 @@ export default function TuitionClassesPage() {
 
       {/* Batches */}
       <Section background="light">
-        <SectionHeader eyebrow="Batches" title="Two Expert Batches for Every Stage" />
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
+        <SectionHeader eyebrow="Batches" title="Three Expert Batches for Every Stage" />
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {batches.map((b, i) => (
             <motion.div key={b.title} variants={fadeUp} initial="hidden" whileInView="show"
               viewport={{ once: true }} transition={{ delay: i * 0.1 }}

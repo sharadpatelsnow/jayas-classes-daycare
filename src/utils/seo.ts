@@ -27,10 +27,10 @@ export const organizationSchema = {
   "email": "support@jayakipathshala.in",
   "priceRange": "₹₹",
   "image": "https://jayasclasses.in/og-image.jpg",
-  "description": "Premium daycare, play school and tuition classes for Class 1-8 in Kharadi, Pune",
+  "description": "Premium daycare, play school and tuition classes for Class 1-10 in Kharadi, Pune",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Second Floor, Tulaja Bhawani Nagar, Near D'Mart Ready",
+    "streetAddress": "Saffron Glory, Second Floor, Above Swasthya Clinic, Near Toy Mall",
     "addressLocality": "Kharadi",
     "addressRegion": "Maharashtra",
     "postalCode": "411014",
@@ -92,7 +92,7 @@ export const faqSchema = {
       "name": "Are you located near any landmark?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, we're located near D'Mart Ready, Kharadi on Tulaja Bhawani Nagar."
+        "text": "Yes, we're located at Saffron Glory, Second Floor, above Swasthya Clinic, near Toy Mall in Kharadi."
       }
     }
   ]
@@ -116,10 +116,10 @@ export const localServiceAreaSchema = {
 
 export const PAGE_SEO: Record<string, SEOMeta> = {
   home: buildSEO({
-    title: "Jaya's Classes and Day Care Center | Best Daycare & Tuition in Kharadi Pune",
-    description: "Jaya's Classes and Day Care Center in Kharadi, Pune. Best daycare, play school, nursery, CBSE/ICSE/State Board tuition for Class 1-8. Near D'Mart Ready. Admissions Open!",
+    title: "Jaya's Classes and Day Care Center | Best Tuition in Kharadi Pune | Highly Recommended",
+    description: "Best tuition center in Kharadi, Pune with highly recommended tutors. Premium institute for kids coaching Class 1-10. CBSE/ICSE/State Board. Concept based learning. Professional coaching center. Student success stories. Admissions Open!",
     canonical: '/',
-    keywords: 'daycare kharadi, play school kharadi, tuition classes kharadi, day care center kharadi pune, best daycare near dmart ready',
+    keywords: 'best tuition center kharadi, highly recommended tutors pune, tuition classes kharadi, professional coaching center kharadi, concept based learning center, personalized mentoring kids',
   }),
   about: buildSEO({
     title: "About Us | Jaya's Classes and Day Care Center Kharadi Pune",
@@ -127,16 +127,16 @@ export const PAGE_SEO: Record<string, SEOMeta> = {
     canonical: '/about',
   }),
   academics: buildSEO({
-    title: "CBSE ICSE State Board Tuition Classes in Kharadi | Class 1-8 | Jaya's Classes",
-    description: "Expert tuition coaching for Class 1 to 8 in Kharadi, Pune. CBSE, ICSE and Maharashtra State Board. Foundation & Confidence building for Class 1-4, Core studies for Class 5-8.",
+    title: "Best Tuition Classes in Kharadi | Class 1-10 | CBSE ICSE State Board | Jaya's",
+    description: "Expert CBSE/ICSE tuition coaching for Class 1-10 in Kharadi. Concept based learning, personalized mentoring, small batches. Class 9-10 with special focus on Maths and Science. Top rated kids tuition. Professional coaching center near Toy Mall.",
     canonical: '/academics',
-    keywords: 'tuition classes kharadi, CBSE tuition kharadi, ICSE tuition kharadi, state board classes kharadi',
+    keywords: 'best tuition center kharadi, CBSE tuition kharadi, concept based learning, personalized mentoring, class 9-10 maths science coaching, euro school kharadi tuition',
   }),
   daycare: buildSEO({
-    title: "Best Day Care Center in Kharadi Pune | Near D'Mart Ready | Jaya's",
-    description: "Safe, hygienic, child-centric day care center in Kharadi near D'Mart Ready. Fine & gross motor skills, interactive learning, emotional development. Flexible timings for working parents.",
+    title: "Best Day Care Center in Kharadi Pune | Near Toy Mall | Jaya's",
+    description: "Safe, hygienic, child-centric day care center in Kharadi near Toy Mall. Fine & gross motor skills, interactive learning, emotional development. Flexible timings for working parents.",
     canonical: '/daycare',
-    keywords: 'day care kharadi, daycare near dmart ready, child care kharadi pune',
+    keywords: 'day care kharadi, best kids classes kharadi, child care center kharadi pune, safe educational hub near toy mall, after school care kharadi',
   }),
   admissions: buildSEO({
     title: "Admissions Open 2024-25 | Jaya's Classes and Day Care Center Kharadi",
@@ -145,7 +145,7 @@ export const PAGE_SEO: Record<string, SEOMeta> = {
   }),
   contact: buildSEO({
     title: "Contact Jaya's Classes and Day Care Center | Kharadi Pune",
-    description: "Contact Jaya's Classes and Day Care Center in Kharadi, Pune. Call +91 7869008525 or WhatsApp for admissions and enquiries. Located near D'Mart Ready, Kharadi.",
+    description: "Contact Jaya's Classes and Day Care Center in Kharadi, Pune. Call +91 7869008525 or WhatsApp for admissions and enquiries. Located near Toy Mall, Kharadi.",
     canonical: '/contact',
   }),
   faq: buildSEO({
@@ -171,25 +171,25 @@ export const PAGE_SEO: Record<string, SEOMeta> = {
   // Landing Pages
   playSchool: buildSEO({
     title: "Best Play School in Kharadi Pune | Playgroup Classes | Jaya's Classes",
-    description: "Premium play school & playgroup in Kharadi, Pune. Age-appropriate activities, music, art, motor skills development. Enroll your child today near D'Mart Ready.",
+    description: "Premium play school & playgroup in Kharadi, Pune. Age-appropriate activities, music, art, motor skills development. Enroll your child today near Toy Mall.",
     canonical: '/play-school-kharadi',
     keywords: 'play school kharadi, playgroup kharadi, nursery kharadi, preschool kharadi pune',
   }),
   daycareKharadi: buildSEO({
     title: "Best Day Care Center in Kharadi Pune | Safe, Hygienic, Nurturing | Jaya's",
-    description: "Premium daycare in Kharadi Pune near D'Mart Ready. Safe, hygienic, structured environment with flexible timing. Half-day, full-day & after-school care available.",
+    description: "Premium daycare in Kharadi Pune near Toy Mall. Safe, hygienic, structured environment with flexible timing. Half-day, full-day & after-school care available.",
     canonical: '/day-care-center-kharadi',
     keywords: 'daycare kharadi, day care center kharadi, childcare kharadi pune, creche kharadi',
   }),
   tuitionClasses: buildSEO({
-    title: "Tuition Classes in Kharadi Pune | Class 1-8 | CBSE ICSE State Board",
-    description: "Expert tuition classes for Class 1-8 in Kharadi, Pune. CBSE, ICSE, Maharashtra State Board coaching. Foundation building to advanced studies.",
+    title: "Tuition Classes in Kharadi Pune | Class 1-10 | CBSE ICSE State Board",
+    description: "Expert tuition classes for Class 1-10 in Kharadi, Pune. CBSE, ICSE, Maharashtra State Board coaching. Class 9-10 with special focus on Maths and Science.",
     canonical: '/tuition-classes-kharadi',
     keywords: 'tuition classes kharadi, home tuition kharadi, coaching classes kharadi',
   }),
   cbseTuition: buildSEO({
-    title: "CBSE Tuition Classes in Kharadi Pune | Class 1-8 | Expert Coaching",
-    description: "Specialized CBSE tuition coaching in Kharadi, Pune for Class 1-8. Qualified teachers, structured curriculum, focus on concept building & exam preparation.",
+    title: "CBSE Tuition Classes in Kharadi Pune | Class 1-10 | Expert Coaching",
+    description: "Specialized CBSE tuition coaching in Kharadi, Pune for Class 1-10. Qualified teachers, structured curriculum, focus on concept building & exam preparation. Class 9-10 Maths and Science specialization.",
     canonical: '/cbse-tuition-kharadi',
     keywords: 'CBSE tuition kharadi, CBSE coaching kharadi, CBSE classes kharadi pune',
   }),

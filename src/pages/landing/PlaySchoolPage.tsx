@@ -8,7 +8,7 @@ import { trackCallLead, trackWhatsAppLead } from '@/utils/analytics'
 
 const seo = buildSEO({
   title: "Best Play School in Kharadi Pune | Nursery & LKG UKG | Jaya's Classes",
-  description: "Top-rated play school and nursery in Kharadi, Pune. Structured, activity-based early learning for children aged 1.5–5 years. Near D'Mart Ready Kharadi. Admissions Open!",
+  description: "Top-rated play school and nursery in Kharadi, Pune. Structured, activity-based early learning for children aged 1.5–5 years. Near Toy Mall Kharadi. Admissions Open!",
   canonical: '/play-school-kharadi',
   keywords: 'play school kharadi, nursery kharadi pune, LKG UKG kharadi, preschool kharadi near dmart',
 })
@@ -47,7 +47,7 @@ export default function PlaySchoolPage() {
               Best Play School in Kharadi, Pune
             </h1>
             <p className="font-body text-lg opacity-90 mb-8 leading-relaxed">
-              A joyful, structured early learning environment for children aged 1.5 to 5.5 years. Activity-based, child-centric, and located near D'Mart Ready, Kharadi.
+              A joyful, structured early learning environment for children aged 1.5 to 5.5 years. Activity-based, child-centric, and located near Toy Mall, Kharadi.
             </p>
             <div className="flex flex-wrap gap-3">
               <Button href="/admissions" variant="accent" size="xl">Enrol Now →</Button>
@@ -79,7 +79,7 @@ export default function PlaySchoolPage() {
                 ))}
               </ul>
               <div className="mt-6 pt-5 border-t border-white/20">
-                <p className="font-body text-sm opacity-90">📍 2nd Floor, Tulaja Bhawani Nagar, Near D'Mart Ready, Kharadi, Pune</p>
+                <p className="font-body text-sm opacity-90">📍 Saffron Glory, Second Floor, Above Swasthya Clinic, Near Toy Mall, Kharadi, Pune</p>
                 <p className="font-body text-sm opacity-90 mt-1">📞 {BUSINESS.phoneDisplay}</p>
               </div>
             </div>

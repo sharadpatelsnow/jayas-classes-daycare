@@ -60,7 +60,7 @@ export default function ContactPage() {
       color: 'bg-accent-500',
     },
     {
-      icon: '📍', title: 'Visit Us', value: "Near D'Mart Ready, Kharadi",
+      icon: '📍', title: 'Visit Us', value: "Near Toy Mall, Kharadi",
       sub: BUSINESS.address.full,
       href: BUSINESS.mapsUrl,
       onClick: trackDirectionLead,

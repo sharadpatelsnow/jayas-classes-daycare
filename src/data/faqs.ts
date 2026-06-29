@@ -8,7 +8,7 @@ export const FAQS: FAQ[] = [
   {
     category: 'Location & Contact',
     question: "Where is Jaya's Classes and Day Care Center located?",
-    answer: "We are located on the Second Floor, Tulaja Bhawani Nagar, Near D'Mart Ready, Kharadi, Pune, Maharashtra 411014. We are very easy to find — just look for us above the D'Mart Ready building in Kharadi.",
+    answer: "We are located at Saffron Glory, Second Floor, Above Swasthya Clinic, Near Toy Mall, Kharadi, Pune, Maharashtra 411014. We are very easy to find and conveniently located in Kharadi.",
   },
   {
     category: 'Location & Contact',
@@ -48,7 +48,7 @@ export const FAQS: FAQ[] = [
   {
     category: 'Academics',
     question: 'Which classes do you offer tuition for?',
-    answer: 'We offer academic coaching for Class 1 to Class 8. Class 1-4 is our Foundation Batch, focused on building strong basics and confidence. Class 5-8 is our Advanced Batch, focused on deep subject mastery and exam preparation.',
+    answer: 'We offer academic coaching for Class 1 to Class 10. Class 1-4 is our Foundation Batch, focused on building strong basics and confidence. Class 5-8 is our Advanced Batch, focused on deep subject mastery and exam preparation. Class 9-10 is our Premium Batch with special focus on Maths and Science, designed for students preparing for board exams and competitive entrance exams.',
   },
   {
     category: 'Academics',
