@@ -1,10 +1,30 @@
+# Robots.txt for Jaya's Classes and Day Care Center
+# Website: jayasclasses.in
+# Service Area: Kharadi, Pune
+
 User-agent: *
 Allow: /
+Allow: /play-school-kharadi
+Allow: /day-care-center-kharadi
+Allow: /tuition-classes-kharadi
+Allow: /cbse-tuition-kharadi
+Allow: /admissions
+Allow: /contact
+Allow: /blog
 
 Disallow: /admin/
 Disallow: /private/
+Disallow: /*.json$
+Disallow: /node_modules/
 
+# Specific rules for faster crawling of important pages
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+# Sitemap locations
 Sitemap: https://jayasclasses.in/sitemap.xml
 
-# Crawl delay for politeness
+# Standard crawl delay for other bots
 Crawl-delay: 1
+Request-rate: 30/60

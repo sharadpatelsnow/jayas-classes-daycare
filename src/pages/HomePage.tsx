@@ -24,7 +24,7 @@ function TrustBadges() {
     <div className="flex flex-wrap gap-2 mb-6">
       <HeroBadge color="#DC2626">🎉 Admissions Open 2026–27</HeroBadge>
       <HeroBadge color="#14B8A6">🛡️ Safe & Hygienic</HeroBadge>
-      <HeroBadge color="#1E3A8A">📍 Near D'Mart Ready</HeroBadge>
+      <HeroBadge color="#1E3A8A">📍 Above Swasthya clinic</HeroBadge>
       <HeroBadge color="#F59E0B">⭐ Kharadi's Trusted Centre</HeroBadge>
     </div>
   )
@@ -74,7 +74,7 @@ function HeroSection() {
             </Button>
           </div>
           <div className="flex flex-wrap gap-5">
-            {['200+ Happy Students', 'Grades 1–8', 'CBSE · ICSE · State Board', 'Flexible Timings'].map(t => (
+            {['200+ Happy Students', 'Grades 1–10', 'CBSE · ICSE · State Board', 'Flexible Timings'].map(t => (
               <div key={t} className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-secondary-500 flex-shrink-0" />
                 <span className="text-sm font-medium text-gray-700 font-body">{t}</span>
@@ -125,7 +125,7 @@ function HeroSection() {
 function FeaturesSection() {
   const features = [
     { icon: '🛡️', title: 'Safe & Hygienic', desc: 'Sanitised, child-proofed spaces with professional supervision at all times.' },
-    { icon: '📚', title: 'All 3 Boards', desc: 'CBSE, ICSE, and Maharashtra State Board coaching for Classes 1–8.' },
+    { icon: '📚', title: 'All 3 Boards', desc: 'CBSE, ICSE, and Maharashtra State Board coaching for Classes 1–10.' },
     { icon: '🎯', title: 'Child-Centric', desc: 'Activities tailored to each child\'s pace, strengths, and learning style.' },
     { icon: '⏰', title: 'Flexible Timings', desc: 'Morning, afternoon & evening batches. Full-day daycare available.' },
     { icon: '🌱', title: 'Holistic Growth', desc: 'Fine motor, gross motor, emotional and social development every day.' },
