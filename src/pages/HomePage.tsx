@@ -24,7 +24,7 @@ function TrustBadges() {
     <div className="flex flex-wrap gap-2 mb-6">
       <HeroBadge color="#DC2626">🎉 Admissions Open 2026–27</HeroBadge>
       <HeroBadge color="#14B8A6">🛡️ Safe & Hygienic</HeroBadge>
-      <HeroBadge color="#1E3A8A">📍 Above Swasthya clinic</HeroBadge>
+      <HeroBadge color="#1E3A8A">📍 Saffron Glory</HeroBadge>
       <HeroBadge color="#F59E0B">⭐ Kharadi's Trusted Centre</HeroBadge>
     </div>
   )
