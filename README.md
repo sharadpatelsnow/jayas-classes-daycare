@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jaya's Classes and Day Care Center — Website
 
 Production website for **Jaya's Classes and Day Care Center**, Kharadi, Pune.
@@ -199,3 +200,6 @@ npm run build
 ## License
 
 Private. All rights reserved — Jaya's Classes and Day Care Center.
+=======
+# jayas-classes-daycare
+>>>>>>> github/main
